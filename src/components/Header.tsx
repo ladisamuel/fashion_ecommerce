@@ -67,7 +67,7 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-              StyleHub
+              Prime Couture City
             </div>
           </Link>
 
