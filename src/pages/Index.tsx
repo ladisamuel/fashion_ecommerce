@@ -9,7 +9,7 @@ import USPSection from "@/components/USPSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="bg-background">
       {/* Hero Section */}
       <HeroSection />
       
