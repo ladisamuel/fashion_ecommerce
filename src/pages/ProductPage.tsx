@@ -80,7 +80,7 @@ export default function ProductPage() {
 
   if (!product) {
     return (
-      <div className="container mx-auto px-4 py-8">
+      <div className="px-6 lg:px-[150px] py-8">
         <div className="text-center">
           <h1 className="text-2xl font-bold">Product not found</h1>
           <Link to="/" className="text-primary hover:underline">
@@ -92,7 +92,7 @@ export default function ProductPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="px-6 lg:px-[150px] py-8">
       {/* Breadcrumb */}
       <nav className="flex items-center space-x-2 text-sm text-muted-foreground mb-8">
         <Link to="/" className="hover:text-foreground">Home</Link>

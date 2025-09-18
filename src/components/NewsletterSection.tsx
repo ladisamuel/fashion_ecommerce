@@ -27,7 +27,7 @@ export default function NewsletterSection() {
         <div className="absolute top-1/2 left-1/3 w-16 h-16 border border-primary rounded-full animate-float" style={{ animationDelay: '2s' }} />
       </div>
       
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="px-6 lg:px-[150px] relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           {/* Header */}
           <div className="mb-8 fade-in">

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import logo_no_bg from "../assets/logo/logo_no_bg.png";
 import { 
   Search, 
   ShoppingCart, 
@@ -33,14 +34,14 @@ export default function Header() {
   const totalItems = getTotalItems();
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border-soft">
+    <header className="sticky top-0 z-50 w-full px-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border-soft">
       {/* Top Bar */}
       <div className="bg-primary text-primary-foreground py-2 text-center text-sm">
         Free shipping on orders over $100 | Easy returns within 30 days
       </div>
 
       {/* Main Header */}
-      <div className="container mx-auto px-4">
+      <div className=" px-6 lg:px-[150px]">
         <div className="flex h-16 items-center justify-between">
           {/* Mobile Menu */}
           <Sheet>
@@ -67,7 +68,10 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-              Prime Couture City
+              <div className="h-16 p-2">
+                <img src={logo_no_bg} className="h-full border rounded-full bg-white -p-5" alt="" />
+              </div>
+               {/* Prime Couture City */}
             </div>
           </Link>
 

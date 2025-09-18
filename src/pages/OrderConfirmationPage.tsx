@@ -7,7 +7,7 @@ export default function OrderConfirmationPage() {
   const orderNumber = "ORD-2024-" + Math.random().toString(36).substr(2, 6).toUpperCase();
   
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="px-6 lg:px-[150px] py-12">
       <div className="max-w-2xl mx-auto text-center">
         {/* Success Icon */}
         <div className="mb-6">

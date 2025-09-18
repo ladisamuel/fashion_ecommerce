@@ -43,7 +43,7 @@ export default function PromotionalSection() {
         <div className="absolute bottom-20 left-1/4 w-12 h-12 bg-white rounded-full animate-float" style={{ animationDelay: '2s' }} />
       </div>
       
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="px-6 lg:px-[150px] relative z-10">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-4">
             <Zap className="h-5 w-5 text-white" />

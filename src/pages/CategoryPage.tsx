@@ -263,7 +263,7 @@ export default function CategoryPage() {
   if (!category) return null;
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="px-6 lg:px-[150px] py-8">
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2">{categoryTitles[category]}</h1>
@@ -284,7 +284,7 @@ export default function CategoryPage() {
         {/* Main Content */}
         <div className="flex-1">
           {/* Toolbar */}
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex gap-6 flex-wrap items-center justify-between mb-6">
             <div className="flex items-center space-x-4">
               {/* Mobile Filter */}
               <Sheet>
@@ -307,7 +307,7 @@ export default function CategoryPage() {
               </span>
             </div>
 
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center border space-x-4">
               {/* Sort */}
               <Select value={sortBy} onValueChange={setSortBy}>
                 <SelectTrigger className="w-40">

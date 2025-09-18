@@ -132,7 +132,7 @@ export default function AccountPage() {
 
   if (!isLoggedIn) {
     return (
-      <div className="container mx-auto px-4 py-12">
+      <div className="px-6 lg:px-[150px] py-12">
         <div className="max-w-md mx-auto">
           <Card>
             <CardHeader className="text-center">
@@ -227,7 +227,7 @@ export default function AccountPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="px-6 lg:px-[150px] py-8">
       <div className="mb-6">
         <h1 className="text-3xl font-bold">My Account</h1>
         <p className="text-muted-foreground">Manage your account and orders</p>

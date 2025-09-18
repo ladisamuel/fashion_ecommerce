@@ -56,7 +56,7 @@ const newArrivals = [
 export default function NewArrivalsSection() {
   return (
     <section className="py-20 bg-muted/30">
-      <div className="container mx-auto px-6">
+      <div className="px-6 lg:px-[150px]">
         {/* Section Header */}
         <div className="text-center mb-16 fade-in">
           <div className="inline-flex items-center gap-2 bg-gold/10 rounded-full px-4 py-2 mb-4">

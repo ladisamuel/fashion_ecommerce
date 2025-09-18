@@ -47,7 +47,7 @@ export default function HeroSection() {
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-screen w-full px-6 lg:px-[150px] overflow-hidden">
       {/* Background Images */}
       {heroSlides.map((slide, index) => (
         <div
@@ -66,7 +66,7 @@ export default function HeroSection() {
       
       {/* Content */}
       <div className="relative z-10 flex h-full items-center">
-        <div className="container mx-auto px-6">
+        <div className="">
           <div className="max-w-2xl">
             {/* Badge */}
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-accent/20 px-4 py-2 backdrop-blur-sm">

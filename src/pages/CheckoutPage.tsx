@@ -65,7 +65,7 @@ export default function CheckoutPage() {
 
   if (items.length === 0) {
     return (
-      <div className="container mx-auto px-4 py-12">
+      <div className="px-6 lg:px-[150px] py-12">
         <div className="max-w-md mx-auto text-center">
           <h1 className="text-2xl font-bold mb-2">Your cart is empty</h1>
           <p className="text-muted-foreground mb-6">
@@ -80,7 +80,7 @@ export default function CheckoutPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="px-6 lg:px-[150px] py-8">
       <div className="mb-6">
         <Button variant="ghost" asChild className="mb-4">
           <Link to="/cart">

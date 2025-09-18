@@ -56,7 +56,7 @@ export default function Footer() {
     <footer className="bg-surface-elevated border-t border-border-soft mt-20">
       {/* Newsletter Section */}
       <div className="bg-gradient-accent py-12">
-        <div className="container mx-auto px-4">
+        <div className="px-6 lg:px-[150px]">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
               Stay in Style
@@ -82,7 +82,7 @@ export default function Footer() {
       </div>
 
       {/* Main Footer Content */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="px-6 lg:px-[150px] py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
@@ -169,7 +169,7 @@ export default function Footer() {
       <Separator />
 
       {/* Bottom Footer */}
-      <div className="container mx-auto px-4 py-6">
+      <div className="px-6 lg:px-[150px] py-6">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
